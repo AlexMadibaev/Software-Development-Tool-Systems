@@ -1,26 +1,26 @@
-# Инициализация списков
+# chore: Initialize lists
 my_list = ["leaf", "cherry", "fish"]
 my_list1 = ["D", "C", "B", "A"]
 my_list2 = [3, 4, 5, 1, 2]
 
-# Сортировка списка my_list по возрастанию
+# chore: Sort my_list in ascending order
 my_list.sort()
-# Результат: ['cherry', 'fish', 'leaf']
+# Result: ['cherry', 'fish', 'leaf']
 
-# Сортировка списка my_list1 по возрастанию
+# chore: Sort my_list1 in ascending order
 my_list1.sort()
-# Результат: ['A', 'B', 'C', 'D']
+# Result: ['A', 'B', 'C', 'D']
 
-# Сортировка списка my_list2 по возрастанию
+# chore: Sort my_list2 in ascending order
 my_list2.sort()
-# Результат: [1, 2, 3, 4, 5]
+# Result: [1, 2, 3, 4, 5]
 
-# Вывод отсортированных копий списков
-print(sorted(my_list))  # Возвращает отсортированную копию списка my_list без изменения исходного.
-# Результат: ['cherry', 'fish', 'leaf']
+# feat: Print sorted copies of lists
+print(sorted(my_list))  # Returns a sorted copy of my_list without modifying the original.
+# Result: ['cherry', 'fish', 'leaf']
 
-print(sorted(my_list1))  # Возвращает отсортированную копию списка my_list1 без изменения исходного.
-# Результат: ['A', 'B', 'C', 'D']
+print(sorted(my_list1))  # Returns a sorted copy of my_list1 without modifying the original.
+# Result: ['A', 'B', 'C', 'D']
 
-print(sorted(my_list2))  # Возвращает отсортированную копию списка my_list2 без изменения исходного.
-# Результат: [1, 2, 3, 4, 5]
+print(sorted(my_list2))  # Returns a sorted copy of my_list2 without modifying the original.
+# Result: [1, 2, 3, 4, 5]
