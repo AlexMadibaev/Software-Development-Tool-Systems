@@ -21,6 +21,7 @@ jobs:
 
     - name: Install dependencies
       run: pip install -r requirements.txt
+      # Здесь добавлен новый шаг, который устанавливает зависимости из requirements.txt
 
     - name: Run unit tests
       run: python -m unittest discover -v
