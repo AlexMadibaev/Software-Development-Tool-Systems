@@ -1,5 +1,3 @@
-# src/utils.py
-
 def sort_list(list_to_sort):
     """Сортирует список по возрастанию."""
     list_to_sort.sort()
