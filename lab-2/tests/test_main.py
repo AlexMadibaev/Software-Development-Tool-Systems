@@ -1,5 +1,3 @@
-# tests/test_main.py
-
 import unittest
 from src.main import sort_lists
 
