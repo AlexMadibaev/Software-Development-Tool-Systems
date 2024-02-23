@@ -1,5 +1,3 @@
-# tests/test_utils.py
-
 import unittest
 from src import utils
 
