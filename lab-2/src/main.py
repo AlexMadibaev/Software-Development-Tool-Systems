@@ -1,5 +1,3 @@
-# src/main.py
-
 def sort_lists():
     # Инициализация списков
     my_list = ["leaf", "cherry", "fish"]
